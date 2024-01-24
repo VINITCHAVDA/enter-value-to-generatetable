@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+  background: linear-gradient(rgba(117, 48, 48, 0.387), rgba(0, 0, 0, 0.05));
+}
+
+.main {
+  border: 2px solid black;
+  background-color: rgba(0, 0, 0, 0.05);
+  height: 50vh;
+  width: 30vw;
+}
+
+.main h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+#number {
+  width: 20vw;
+  margin-top: 8%;
+  margin-left: 5%;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.main button {
+  font-size: 1.5rem;
+  background-color: rgba(95, 224, 224, 0.956);
+  border-radius: 10px;
+  color: aliceblue;
+}
+
+#p1{
+    margin-top: 4%;
+}
